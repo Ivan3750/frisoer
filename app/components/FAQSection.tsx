@@ -7,27 +7,46 @@ interface FAQItem {
   question: string;
   answer: string;
 }
-
 const faqs: FAQItem[] = [
   {
     question: "Skal jeg bestille tid på forhånd?",
     answer:
-      "Ja, vi anbefaler at booke tid på forhånd for at sikre ledighed. Du kan nemt booke online via vores kontaktside.",
+      "Ja, vi anbefaler altid at booke tid på forhånd, så du er sikker på at få plads. Du kan nemt reservere online eller ringe til os.",
   },
   {
-    question: "Hvilke produkter bruger I?",
+    question: "Hvilke produkter bruger I i salonen?",
     answer:
-      "Vi anvender udelukkende premium og skånsomme produkter, der beskytter og styrker håret.",
+      "Vi bruger kun premium produkter, som er skånsomme og styrker håret, så det altid ser sundt og glansfuldt ud.",
   },
   {
-    question: "Tilbyder I konsultation før farvning?",
+    question: "Tilbyder I konsultation før farvning eller styling?",
     answer:
-      "Ja, vi tilbyder gratis konsultation, så vi kan finde den perfekte løsning til din hårtype og stil.",
+      "Ja, vi tilbyder en gratis konsultation, hvor vi sammen finder den bedste løsning til dit hår og din stil.",
   },
   {
-    question: "Kan jeg afbestille min tid?",
+    question: "Hvordan kan jeg afbestille eller ændre min tid?",
     answer:
-      "Ja, afbestilling skal ske senest 24 timer før din aftale for at undgå gebyr.",
+      "Du kan afbestille eller ændre din tid op til 48 timer før aftalen uden gebyr. Kontakt os gerne via telefon eller e-mail.",
+  },
+  {
+    question: "Tilbyder I farvning af hår?",
+    answer:
+      "Ja, vi tilbyder alle typer farvning, inklusiv balayage, highlights og fuld farve, tilpasset din stil og hårtype.",
+  },
+  {
+    question: "Kan I klippe børn?",
+    answer:
+      "Ja, vi byder børn velkommen og sørger for, at deres oplevelse bliver tryg og sjov. Vi anbefaler altid at booke tid på forhånd.",
+  },
+  {
+    question: "Er salonen venlig overfor LGBT+ kunder?",
+    answer:
+      "Ja, hos Frisør Vivian er alle velkomne. Vi skaber et trygt og inkluderende miljø, hvor alle kan føle sig godt tilpas.",
+  },
+  {
+    question: "Hvor lang tid tager en almindelig klipning?",
+    answer:
+      "En almindelig klipning tager typisk 20–35 minutter, afhængigt af hårtype og ønsket styling.",
   },
 ];
 

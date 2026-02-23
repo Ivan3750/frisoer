@@ -7,7 +7,6 @@ import heroImage from "@/app/assets/hero-salon.jpg";
 const Hero = () => {
   return (
     <section className="relative h-[88vh] min-h-[620px] flex items-center overflow-hidden">
-      
       {/* Background Image */}
       <Image
         src={heroImage}
@@ -18,7 +17,7 @@ const Hero = () => {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/55" />
+      <div className="absolute inset-0 bg-black/65" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -40,9 +39,8 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-white/80 max-w-xl">
-            Eksklusive behandlinger med fokus på kvalitet,
-            detaljer og personlig service.
-            Vi skaber et look, der passer perfekt til dig.
+  Hos Frisør Vivian i Horsens skaber vi personlige looks med fokus på kvalitet, kreativitet og premium produkter. Din skønhed og oplevelse er altid i centrum.
+
           </p>
 
           {/* Buttons */}

@@ -29,12 +29,12 @@ const works: WorkItem[] = [
     category: "Farvning",
     image: f1,
   },
-  {
+/*   {
     id: 2,
     title: "Classic",
     category: "Styling",
     image: f2,
-  },
+  }, */
   {
     id: 3,
     title: "Classic",
@@ -47,18 +47,18 @@ const works: WorkItem[] = [
     category: "Farvning",
     image: f3,
   },
-  {
+/*   {
     id: 5,
     title: "Classic",
     category: "Styling",
     image: f5,
-  },
-  {
+  }, */
+ /*  {
     id: 6,
     title: "Classic",
     category: "Klip",
     image: f6,
-  },
+  }, */
   {
     id: 7,
     title: "Classic",
@@ -145,15 +145,7 @@ export default function WorkGallerySection() {
   ))}
 </div>
 
-        {/* CTA */}
-        <div className="text-center mt-20">
-          <Link
-            href="/kontakt"
-            className="inline-block px-10 py-4 bg-primary text-primary-foreground rounded-full uppercase tracking-widest text-sm hover:opacity-90 transition"
-          >
-            Book din tid
-          </Link>
-        </div>
+      
       </div>
     </section>
   );

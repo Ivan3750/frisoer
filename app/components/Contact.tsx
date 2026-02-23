@@ -8,20 +8,20 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Telefon",
-      value: "25 00 00 00",
-      href: "tel:25000000",
+      value: "27 89 61 00",
+      href: "tel:27896100",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "lønbæks@gmail.com",
-      href: "mailto:lønbæks@gmail.com",
+      value: "email@gmail.com",
+      href: "mailto:email@gmail.com",
     },
     {
       icon: MapPin,
       label: "Adresse",
-      value: "Vestre Engvej 7\n7100 Vejle",
-      href: "https://maps.google.com/?q=Vestre+Engvej+7,+7100+Vejle",
+      value: "J Chr Juliussens Vej 9, st.th, 8700 Horsens",
+      href: "https://maps.google.com/?q=J+Chr+Juliussens+Vej+9,+st.th,+8700+Horsens",
     },
   ];
 
@@ -78,7 +78,8 @@ const Contact = () => {
             {/* Map */}
             <div className="rounded-3xl overflow-hidden h-80 bg-muted">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12153.2252481922!2d9.534519930379213!3d55.71527382563587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c82509eaaa53d%3A0xfa34ac2a4dc08d4d!2sVestre%20Engvej%207%2C%207100%20Vejle!5e0!3m2!1suk!2sdk!4v1769987195463!5m2!1suk!2sdk"
+              
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8956.599101552296!2d9.850497458370063!3d55.86006776466719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c6307a3c51a25%3A0x52246fde74b53209!2sFris%C3%B8r%20Vivian!5e0!3m2!1suk!2sdk!4v1771887379326!5m2!1suk!2sdk"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -97,23 +98,23 @@ const Contact = () => {
               <div className="space-y-4 text-sm">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">
-                    Teoriundervisning
+                    Monday - Friday
                   </span>
-                  <span>Efter aftale</span>
+                  <span>10:00 – 17:30</span>
                 </div>
 
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">
-                    Køretimer
+                    Lørdag
                   </span>
-                  <span>Fleksible tider</span>
+                  <span>10:00 - 14:00</span>
                 </div>
 
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">
-                    Telefontid
+                    Søndag
                   </span>
-                  <span>08:00 – 20:00</span>
+                  <span>Lukket</span>
                 </div>
               </div>
             </div>
