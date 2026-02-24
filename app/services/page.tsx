@@ -5,6 +5,7 @@ import ServicesGallery from "../components/services/ServicesGallery";
 import ServicesCTA from "../components/services/ServicesCTA";
 import WorkGallerySection from "../components/WorkGallerySection";
 import FAQSection from "../components/FAQSection";
+import AboutIntro from "../components/services/AboutIntro";
 
 export const metadata = {
   title: "Frisør Vivian – Vores ydelser i Horsens",
@@ -101,6 +102,7 @@ export default function Page() {
         <ServiceCategory key={group.category} {...group} />
       ))}
  
+     <AboutIntro></AboutIntro>
       <WhyChooseUs />
      <WorkGallerySection></WorkGallerySection>
       <FAQSection></FAQSection>

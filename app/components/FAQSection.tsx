@@ -39,11 +39,6 @@ const faqs: FAQItem[] = [
       "Ja, vi byder børn velkommen og sørger for, at deres oplevelse bliver tryg og sjov. Vi anbefaler altid at booke tid på forhånd.",
   },
   {
-    question: "Er salonen venlig overfor LGBT+ kunder?",
-    answer:
-      "Ja, hos Frisør Vivian er alle velkomne. Vi skaber et trygt og inkluderende miljø, hvor alle kan føle sig godt tilpas.",
-  },
-  {
     question: "Hvor lang tid tager en almindelig klipning?",
     answer:
       "En almindelig klipning tager typisk 20–35 minutter, afhængigt af hårtype og ønsket styling.",

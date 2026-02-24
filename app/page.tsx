@@ -18,8 +18,8 @@ const Index = () => {
       <InfoBlocksSEO></InfoBlocksSEO>
           <FeedBack></FeedBack>
       <WorkGallerySection></WorkGallerySection>
-      <Contact></Contact>
       <FAQSection></FAQSection>
+      <Contact></Contact>
     </>
   );
 };
